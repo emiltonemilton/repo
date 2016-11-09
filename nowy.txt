@@ -1,1 +1,6 @@
+<<<<<<< HEAD
+ok wprowadzam kolejne zmiany w gałęzi	
+i jeszcze nowsze
+=======
 jakas zmiana
+>>>>>>> parent of de84d7b... nowe zmiany w galezi
