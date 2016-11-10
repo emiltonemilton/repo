@@ -24,6 +24,34 @@ p {
 	
 }
 
+.cien
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.cien:before, .cien:after
+{
+    z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  right: 10px;
+  left: auto;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
 .main {
 	/*background-image: url("http://spyshop.home.pl/allegro_img/spyshop_pl/images/body-pattern.png");*/
 	background-color: #ccc;
@@ -64,60 +92,106 @@ p {
 	background-color: #FFF;
 	padding: 30px;
 
+}
+
+.baner {
+	
+	display: block;
 
 }
 
-.cien
-{
-    position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-}
-.cien:before, .cien:after
-{
-    z-index: -1;
-  position: absolute;
-  content: "";
-  bottom: 15px;
-  right: 10px;
-  left: auto;
-  width: 50%;
-  top: 80%;
-  max-width:300px;
-  background: #777;
-  -webkit-box-shadow: 0 15px 10px #777;
-  -moz-box-shadow: 0 15px 10px #777;
-  box-shadow: 0 15px 10px #777;
-  -webkit-transform: rotate(3deg);
-  -moz-transform: rotate(3deg);
-  -o-transform: rotate(3deg);
-  -ms-transform: rotate(3deg);
-  transform: rotate(3deg);
+.float-left{
+	float: left;
+	display: block;
 }
 
+.float-right {
+	float: right;
+	display: block;
+
+}
+
+.float-right h1, h2, a {
+	text-align: right;
+	margin-left: 20px;
+	}
+
+#telefon {
+	margin-top: 10px;
+	
+}
+
+#telefon a {
+	font-size: 2em;
+}
+
+#telefon .float-right {
+	margin-top: -5px;
+	line-height: 12px;
+}
+
+img#apple{
+	border: 1px double silver;
+	width:100%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+
+
+}
  </style>
 
 <div class="main">
 
 	<div class="page cien">
 
-		<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat dolorem nam et doloremque ea, quibusdam tempora omnis, quasi earum, eligendi, perferendis soluta aut quos assumenda in nostrum dignissimos doloribus. Dolore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia a, amet omnis ipsa delectus quasi maxime fugiat, expedita eaque libero repellat sed provident ex quisquam soluta. Consequuntur laborum, necessitatibus architecto.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus molestiae libero qui voluptatum unde, sed voluptates doloremque magni, blanditiis tenetur debitis dolore necessitatibus, soluta vero sequi rem distinctio id nobis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat dolorem nam et doloremque ea, quibusdam tempora omnis, quasi earum, eligendi, perferendis soluta aut quos assumenda in nostrum dignissimos doloribus. Dolore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia a, amet omnis ipsa delectus quasi maxime fugiat, expedita eaque libero repellat sed provident ex quisquam soluta. Consequuntur laborum, necessitatibus architecto.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus molestiae libero qui voluptatum unde, sed voluptates doloremque magni, blanditiis tenetur debitis dolore necessitatibus, soluta vero sequi rem distinctio id nobis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat dolorem nam et doloremque ea, quibusdam tempora omnis, quasi earum, eligendi, perferendis soluta aut quos assumenda in nostrum dignissimos doloribus. Dolore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia a, amet omnis ipsa delectus quasi maxime fugiat, expedita eaque libero repellat sed provident ex quisquam soluta. Consequuntur laborum, necessitatibus architecto.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus molestiae libero qui voluptatum unde, sed voluptates doloremque magni, blanditiis tenetur debitis dolore necessitatibus, soluta vero sequi rem distinctio id nobis.</p>
+		<div class="baner">
 
-<!-- 				 <div class="sidebar"> 
-					<p>to jest sidebar Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quasi incidunt, repellendus, obcaecati odit, inventore minus enim consequuntur neque eaque saepe tenetur aliquid, nostrum nam sapiente. Odio saepe, eum quod!
+			<div class="float-left">
+				<img src="logo.png" alt="">
+			</div>
+			
+
+			<div class="float-right" id="telefon">
+				<img class="float-left" src="tel.png" alt="">
+				<div class="float-right">
+					<h2 class="">szybki kontakt</h2>
+					<h1>607 295 596</h1>
+					<a href="mailto:biuro@gpslife.pl">biuro@gpslife.pl</a>
+				</div>
+			</div>
+
+
+
+		</div> <!-- div baner -->
+<div style="margin-top: 150px;">
+
+		<img src="baner.png" id="apple" alt="">
+
+		
+				
+				<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat dolorem nam et doloremque ea, quibusdam tempora omnis, quasi earum, eligendi, perferendis soluta aut quos assumenda in nostrum dignissimos doloribus. Dolore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia a, amet omnis ipsa delectus quasi maxime fugiat, expedita eaque libero repellat sed provident ex quisquam soluta. Consequuntur laborum, necessitatibus architecto.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus molestiae libero qui voluptatum unde, sed voluptates doloremque magni, blanditiis tenetur debitis dolore necessitatibus, soluta vero sequi rem distinctio id nobis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat dolorem nam et doloremque ea, quibusdam tempora omnis, quasi earum, eligendi, perferendis soluta aut quos assumenda in nostrum dignissimos doloribus. Dolore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia a, amet omnis ipsa delectus quasi maxime fugiat, expedita eaque libero repellat sed provident ex quisquam soluta. Consequuntur laborum, necessitatibus architecto.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus molestiae libero qui voluptatum unde, sed voluptates doloremque magni, blanditiis tenetur debitis dolore necessitatibus, soluta vero sequi rem distinctio id nobis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat dolorem nam et doloremque ea, quibusdam tempora omnis, quasi earum, eligendi, perferendis soluta aut quos assumenda in nostrum dignissimos doloribus. Dolore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia a, amet omnis ipsa delectus quasi maxime fugiat, expedita eaque libero repellat sed provident ex quisquam soluta. Consequuntur laborum, necessitatibus architecto.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus molestiae libero qui voluptatum unde, sed voluptates doloremque magni, blanditiis tenetur debitis dolore necessitatibus, soluta vero sequi rem distinctio id nobis.</p>
 				</div>
 
-				<div class="container">
-					
-					
+		<!-- 				 <div class="sidebar"> 
+							<p>to jest sidebar Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quasi incidunt, repellendus, obcaecati odit, inventore minus enim consequuntur neque eaque saepe tenetur aliquid, nostrum nam sapiente. Odio saepe, eum quod!
+						</div>
 
-					<div class="danger">
-						<h1 class="">to jest jakiś nagłówek</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim ducimus voluptas optio aliquid dolorum voluptatem consectetur maxime nobis distinctio ratione consequatur, quae harum blanditiis quas labore vitae magni necessitatibus maiores?</p>
-					</div>
+						<div class="container">
+							
+							
 
-		</div> -->
+							<div class="danger">
+								<h1 class="">to jest jakiś nagłówek</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim ducimus voluptas optio aliquid dolorum voluptatem consectetur maxime nobis distinctio ratione consequatur, quae harum blanditiis quas labore vitae magni necessitatibus maiores?</p>
+							</div>
+
+				</div> -->
+
+		
+
 
 	</div> <!-- div page -->
 
