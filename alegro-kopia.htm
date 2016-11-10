@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<style>  
+html, body
+		{	
+		font:70%/2.5em Verdana, Tahoma, arial, sans-serif;
+		background: #ccc;
+		
+		margin:0;
+		padding:0;
+		/*background-image: url("tlo.png");*/
+}
+
+
+
+.cien
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.cien:before, .cien:after
+{
+
+    z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  right: 10px;
+  left: auto;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.main {
+	/*background-image: url("http://spyshop.home.pl/allegro_img/spyshop_pl/images/body-pattern.png");*/
+	background-color: #ccc;
+}
+
+.sidebar {
+	width: 30%;
+	float: left;
+	border: 1px solid black;
+
+
+}
+.container {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+
+	
+	float: right;
+
+}
+
+.danger {
+	background-color: #FF6666;
+
+	color: #FFF;
+	width: 70%;
+	margin: auto;
+	border-radius:5px;
+	border: 1px solid #7F7F7F;
+	padding: 10px;
+	
+	
+}
+
+.page {
+	margin: 1% 2%;
+	background-color: #FFF;
+	padding: 30px;
+	max-width: 979px;
+	margin: auto;
+
+}
+
+.baner {
+	
+	display: block;
+
+}
+
+.float-left{
+	float: left;
+	display: block;
+}
+
+.float-right {
+	float: right;
+	display: block;
+
+}
+
+h1#telefon, h2#telefon, a#telefon{
+	text-align: right;
+	margin-left: 20px;
+	}
+
+#telefon a {
+	font-size: 2em;
+}
+
+div#telefon {
+ 	margin-top: 15px;
+
+ }
+
+
+#telefon .float-right {
+	
+	line-height: 12px;
+	margin-top: -14px;
+}
+
+img#apple{
+	border: 1px double silver;
+	width: 100%;
+	max-width: 978px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+.info {
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width: 900px;
+	background-color: #F8F8F8;
+	padding: 10px;
+	border: 1px solid silver;
+	border-radius: 3px;
+}
+
+
+p {
+	font-size: 1.4rem;
+	text-align: justify;
+	
+}
+
+h1 { 
+	font-size: 2rem;
+
+}
+
+h2 {
+	font-size: 1.7rem;
+
+}
+
+h3 {
+	font-size: 1.5rem;
+
+}
+
+ul, li {
+	font-size: 1.4rem;
+}
+
+
+ </style>
+
+<div class="main">
+
+	<div class="page cien">
+
+		<div class="baner">
+
+			<div class="float-left">
+				<img src="logo.png" alt="">
+			</div>
+			
+
+			<div class="float-right" id="telefon">
+				<img class="float-left" src="tel.png" alt="">
+				<div class="float-right">
+					<h2 id="telefon">szybki kontakt</h2>
+					<h1 id="telefon">607 295 596</h1>
+					<a id="telefon" href="mailto:biuro@gpslife.pl">biuro@gpslife.pl</a>
+				</div>
+			</div>
+
+
+
+
+		</div> <!-- div baner -->
+
+	<hr style="margin-top: 110px;">
+<div style="margin-top: 50px;">
+
+
+		<img class="cien" src="baner.png" id="apple" alt="">
+<br />
+
+
+				<h1 class="">Miniaturowy lokalizator GPS z dostępem do panelu www</h1>
+				<p class="">GL300 GPS GLONASS to następca urządzenia GL200 firmy QUECLINK. Obecnie jest to wg naszych doświadczeń najbardziej sensowny i sprawdzony lokalizator GPS dostępny w Europie, który przy swojej niezawodności zaskakuje czasem pracy.</p>
+
+
+<!-- tu powinny być korzyści zamiast CECH!!!!!!! -->
+
+<h2 class="">Co potrafi lokalizator GPS GLONASS GL300 w systemie GPS Life?</h2>
+<ul>
+	<li>urządzenie lokalizuje w zależności od zasięgu za pomocą systemu GPS lub GLONASS (dokładność pomiaru to ok. 3-5 metrów na zewnątrz)</li>
+	<li>bieżąca lokalizacja położenia urządzenia widoczna na mapie google (w tym satelitarnej)</li>
+	<li>obsługa na komputerze, tablecie czy smartfonie</li>
+	<li>błyskawiczne rysowanie historii tras</li>
+	<li>możliwość odpytania na żądanie (bez konieczności wysyłania SMSów i ponoszenia w związku z tym dodatkowych opłat)</li>
+	<li>alarmy SMS o wybranych zdarzeniach (geostrefy, rozładowanie beterii, lokalizacja)</li>
+	<li>możliwość odpytania o lokalizację (dane adresowe) za pomocą wiadomości SMS</li>
+	<li>prosty i intuicyjny interface (z którego korzystają nawet osoby 65+)</li>
+	<li>szeroki wachlarz konfiguracji <ul>
+		<li>zmiana częstotliwości odczytów</li>
+		<li>zdalny reset urządzenia</li>
+		<li>ustalanie geostref</li>
+		<li>alarmowanie SMSem o ich przekroczeniu</li>
+		<li>zmiana stanu bezruchu</li>
+		<li>alarm o niskim stanie baterii</li>
+	</ul>
+</ul>
+
+
+				<!-- przestrzeń testowa start -->
+					
+					<div class="info">
+						<h2>Dlaczego GPS Control (właściciel marki GPS Life) poleca to urządzenie?</h2>
+<p>6 lat temu stworzyliśmy system GPS Life - który służy lokalizowaniu osób chorych na Alzheimera. Dlatego musieliśmy mieć lokalizator niezawodny i pracujący  przynajmniej kilka dni bez ładowania. Poszukiwania i testy  zajęły prawie 2 lata. Ostatecznie zdecydowaliśmy się na korzystanie przede wszystkim z lokalizatorów GL300 (z początku z GL200, który od tego roku nie jest produkowany przez Queclink). Wg nas jest to jeden z sensowniejszych wyborów wśród całej masy bylejakości urządzeń na rynku.
+
+Koordynator GPS Life
+</p>
+					</div>
+
+
+					<!-- tu będzie galeriab -->
+
+				<!-- przestrzeń testowa end -->
+
+
+
+
+			<!-- 	<h2 class="">GL300 GPS GLONASS to następca urządzenia GL200 firmy QUECLINK. Obecnie jest to wg naszych doświadczeń najbardziej sensowny i sprawdzony lokalizator GPS dostępny w Europie, który przy swojej niezawodności zaskakuje czasem pracy. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta soluta libero excepturi neque. Nostrum deleniti distinctio quae magni praesentium, voluptas, veritatis voluptatibus, iste quia excepturi obcaecati natus. Quasi, distinctio, in!</h2>
+		
+				
+				<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat dolorem nam et doloremque ea, quibusdam tempora omnis, quasi earum, eligendi, perferendis soluta aut quos assumenda in nostrum dignissimos doloribus. Dolore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia a, amet omnis ipsa delectus quasi maxime fugiat, expedita eaque libero repellat sed provident ex quisquam soluta. Consequuntur laborum, necessitatibus architecto.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus molestiae libero qui voluptatum unde, sed voluptates doloremque magni, blanditiis tenetur debitis dolore necessitatibus, soluta vero sequi rem distinctio id nobis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat dolorem nam et doloremque ea, quibusdam tempora omnis, quasi earum, eligendi, perferendis soluta aut quos assumenda in nostrum dignissimos doloribus. Dolore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia a, amet omnis ipsa delectus quasi maxime fugiat, expedita eaque libero repellat sed provident ex quisquam soluta. Consequuntur laborum, necessitatibus architecto.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus molestiae libero qui voluptatum unde, sed voluptates doloremque magni, blanditiis tenetur debitis dolore necessitatibus, soluta vero sequi rem distinctio id nobis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat dolorem nam et doloremque ea, quibusdam tempora omnis, quasi earum, eligendi, perferendis soluta aut quos assumenda in nostrum dignissimos doloribus. Dolore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia a, amet omnis ipsa delectus quasi maxime fugiat, expedita eaque libero repellat sed provident ex quisquam soluta. Consequuntur laborum, necessitatibus architecto.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus molestiae libero qui voluptatum unde, sed voluptates doloremque magni, blanditiis tenetur debitis dolore necessitatibus, soluta vero sequi rem distinctio id nobis.</p>
+				</div> -->
+				
+
+		<!-- 				 <div class="sidebar"> 
+							<p>to jest sidebar Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quasi incidunt, repellendus, obcaecati odit, inventore minus enim consequuntur neque eaque saepe tenetur aliquid, nostrum nam sapiente. Odio saepe, eum quod!
+						</div>
+
+						<div class="container">
+							
+							
+
+							<div class="danger">
+								<h1 class="">to jest jakiś nagłówek</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim ducimus voluptas optio aliquid dolorum voluptatem consectetur maxime nobis distinctio ratione consequatur, quae harum blanditiis quas labore vitae magni necessitatibus maiores?</p>
+							</div>
+
+				</div> -->
+
+		
+
+
+	</div> <!-- div page -->
+
+
+</div> <!-- div main -->
+
+
+</body>
+</html>
+
